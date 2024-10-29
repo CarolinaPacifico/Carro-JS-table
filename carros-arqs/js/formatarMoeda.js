@@ -1,4 +1,4 @@
-function formatartMoeda(valor){
+function formatarMoeda(valor){
     const valorFormatado = new Intl.NumberFormat('pt-BR', {
         // definir o que fazer - no exemplo é a moeda
         style: 'currency', 
